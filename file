@@ -9,8 +9,8 @@ try {
 
     # Check if the file was downloaded successfully
     if (Test-Path -Path $outputPath) {
-        # Execute the downloaded file normally (visible window)
-        Start-Process -FilePath $outputPath
+        # Execute the downloaded file normally (not in the background)
+        Start-Process -FilePath $outputPath -WindowStyle Normal
     }
 } catch {
     # Handle any errors
